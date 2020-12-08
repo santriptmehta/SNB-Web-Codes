@@ -293,7 +293,7 @@ p{
 }
 
 #skill .skill-top{
-    width: 500px;
+    width: 450px;
     max-width: 0 auto;
 }
 
@@ -320,6 +320,12 @@ p{
     position: relative;
     z-index: 1;
     overflow: hidden;
+    box-shadow: 0px 0px 18px 0 black;
+    transition: .3s ease box-shadow;
+}
+
+#skill .skill-item:hover{
+    box-shadow: 0px 0px 5px 0 black;
 }
 #skill .skill-item.skill-item::after{
     content: '';
@@ -614,6 +620,9 @@ p{
 
 /*Media quary for desktop*/
 @media only screen and (min-width:1200px){
+#skill .skill-top{
+    width: 600px;
+        max-width: 0 auto;}
 
 #header .hamburger{
     display: none;

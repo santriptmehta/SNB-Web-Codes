@@ -647,6 +647,14 @@ p{
     flex-basis: 22% ;
     margin: 1.5%;
 }
+.contact-items{
+    overflow-x: scroll;
+}
+.contact-items::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+    
 
     
 }

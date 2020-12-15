@@ -428,22 +428,10 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 #footer .social-icon{
     display: flex;
-    margin-bottom: 30px;
 }
 
-
-#footer .social-items{
-    height: 50px;
-    width: 50px;
-    margin: 0 5px;
-}
-#footer p{
-    color: white;
-    font-size: 1.3rem;
-}
 
 
 
